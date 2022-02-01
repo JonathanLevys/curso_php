@@ -29,3 +29,13 @@ envia os arquivos para o repositorio
 ```
 git push origin main
 ```
+
+mostrar as ramificações ou filias, ou filial atual
+```
+git branch
+```
+
+criar uma nova ramificações ou filial do projeto
+```
+git branch aula00
+```

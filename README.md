@@ -39,3 +39,7 @@ criar uma nova ramificações ou filial do projeto
 ```
 git branch aula00
 ```
+puxa os arquivos do repositorio
+```
+git pull origin main
+```

@@ -15,7 +15,10 @@ echo $x . "\n";
 // A quebra linha feita "\n" faz parte do corpo do PHP.
 echo "</br>" . $y . "</br>";
 // concatenar (.) é o mesmo que somar os juntar texto.
-echo "R$" . $salario;
+echo "R$" . $salario . "</br>";
+
+$txt = "Jesus";
+echo "Eu amo $txt!";
 
 ?>
 

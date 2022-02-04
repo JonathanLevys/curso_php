@@ -18,3 +18,6 @@ echo "</br>" . $y . "</br>";
 echo "R$" . $salario;
 
 ?>
+
+</body>
+</html>

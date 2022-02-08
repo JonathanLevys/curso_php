@@ -43,6 +43,10 @@ troca de pasta
 ```
 git checkout aula04
 ```
+comando que mergia(unir) branch
+```
+git merge aula04 (nome da branch)
+``` 
 puxa os arquivos do repositorio
 ```
 git pull origin main

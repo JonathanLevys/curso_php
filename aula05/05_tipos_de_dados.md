@@ -162,7 +162,7 @@ Exemplo de Saida:
 05 - Declare 1 variavel do tipo array, e atribua a ela todas as marcas de roupa que você usa, use a estrutura **html** e a função ```var_dump()``` para ele mostrar o resultado.
 
 
-06 - Declare 6 variaveis e uma delas seja um arry, e atribua a ela todos os menbros de sua familia, e as demais variaveis atribua seu nome, email, idade, salario, casado sim ou não, e imprima na tela, utilize o ```var_dump()```, para mostrar os membros de sua familia. use a estrutura **html**, e o elemento ```<br>``` para quebra a linha.
+06 - Declare 6 variaveis e uma delas seja um arry, e atribua a ela todos os menbros de sua familia, e as demais variaveis atribua seu nome, email, idade, salario, casado sim ou não, e imprima na tela, utilize o ```var_dump()``` para mostrar os membros de sua familia. use a estrutura **html**, e o elemento ```<br>``` para quebra a linha.
 
 Exemplo de Saida:
 ```

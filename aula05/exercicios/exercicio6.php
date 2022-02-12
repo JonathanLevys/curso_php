@@ -15,7 +15,7 @@
          $salario = 4000;
          $casado = true;
          $familia = array("Jonathan" , "Anny" , "Camilly" , "Nathan");
-         var_dump($familia) . "<br>";
+         var_dump($familia);
          
      
          echo "Meu nome é: " . $nome . "<br>";
@@ -23,7 +23,7 @@
          echo "Tenho a idade de: " . $idade . "<br>";
          echo "Meu salario é: " . $salario . ",00" . "<br>";
          echo "Sou casado: " . $casado . "<br>";
-         echo "Minha Familia: " . $familia . "<br>";
+       
          
     ?>
 </body>

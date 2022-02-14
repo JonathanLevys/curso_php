@@ -11,6 +11,8 @@
         $sou_solteiro_falso = false;
         $sou_solteiro_vdd = true;
         echo "Sou solteiro? R: " . $sou_solteiro_falso;
+        var_dump ($sou_solteiro_falso);
+    
 //Parei pq ja estava ficando louco.
     ?>
 </body>

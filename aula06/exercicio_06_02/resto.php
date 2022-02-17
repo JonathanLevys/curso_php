@@ -4,7 +4,7 @@
     $resultado = $valor1 % $valor2;
     
 // tarefa nao foi concluida.
-header("Location: form_resto.php?resultado=$resultado");
+header("Location: form_resto.php?result=$resultado");
 //Notice: Undefined index: valor1 in C:\xampp\htdocs\curso_php\aula06\exercicio_06_02\resto.php on line 2
 
 //Notice: Undefined index: valor2 in C:\xampp\htdocs\curso_php\aula06\exercicio_06_02\resto.php on line 3

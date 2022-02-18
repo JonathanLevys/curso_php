@@ -5,5 +5,4 @@ $resultado = $valor1 ** $valor2;
 
 header("Location: form_expo.php?result=$resultado");
 
-//falhou tbm.
 ?>

@@ -12,7 +12,7 @@
         Valor2: <input name= "valor2" type="text"><br><br>
                 <button type="submit">elevar</button><br><br>
                 <button type="reset">limpar</button>
-        Resultado: <input name= "resultado" type="text" value="<?php if(isset($_GET["resultado"])) echo $_GET["resultado"] ?>">
+        Resultado: <input name= "resultado" type="text" value="<?php if(isset($_GET["result"])) echo $_GET["result"] ?>">
     </form>
     
 </body>

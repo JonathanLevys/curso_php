@@ -11,7 +11,7 @@
         valor1: <input name= "valor1" type="text"><br><br>
         valor2: <input name= "valor2" type="text"><br><br>
         <button type="submit">multiplicar</button><br><br>
-        Resultado: <input name= "resultado" type="text" value="<?php if(isset($_GET["resultado"])) echo $_GET["resultado"] ?>">
+        Resultado: <input name= "resultado" type="text" value="<?php if(isset($_GET["result"])) echo $_GET["result"] ?>">
             <button type="reset">Limpar
 
             </button>

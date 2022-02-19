@@ -1,8 +1,8 @@
 <?php
-$num1 = 1;
-$num2 = 2;
+$num1=2;
+$num2=1;
 
-$resposta = ++$num1 + $num2;
+$resposta= --$num1 + $num2;
 
 header("Location: form_increm.php?result=$resposta");
 ?>

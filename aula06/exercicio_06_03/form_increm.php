@@ -8,7 +8,8 @@
 </head>
 <body>
     <form action="incremento.php" method="post">
-        Contador: <input name= "resposta" type="text" value="<?php if(isset($_GET["result"])) echo $_GET["result"] ?>">
+        Contador: <input name="valor1" type="text" value="<?php if(isset($_GET["result"])) echo $_GET["result"] ?>">
+<!--  O ciclo do POST, inicia na ação do botão SUBMIT, que puxa do INPUT, que contem valores no campo NAME e o NAME define os indices (indices são valores no var_dump).--> 
         <br>
         <br>
         <button type="submit">incrementar</button>

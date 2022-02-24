@@ -51,3 +51,7 @@ puxa os arquivos do repositorio
 ```
 git pull origin main
 ```
+Cria nova branch e já troca para ela.
+```
+git checkout -b aula07
+```

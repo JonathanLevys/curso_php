@@ -7,4 +7,5 @@ Os operadores nos permitem modificar ou obter novos valores a partir de uma ou m
 + [06.03 Operadores de decremento e incremento ](06.03_operadores_incremento_decremento.md)
 + [06.04 Operadores de atribuição ](06.04_operadores_de_atribuição.md)
 + [06.05 Operadores lógicos ](06.05_operadores_lógicos.md)
++ [06.06 Operadores de comparação ](06.06_operadores_comparação.md)
 

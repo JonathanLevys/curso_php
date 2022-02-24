@@ -1,20 +1,5 @@
-# Operadores Comparação
+<?php
 
-Operadores de comparação ou condicionais, são aqueles capazes de fazer comparações entre variáveis, com eles podemos saber se uma variável é maior que a outra, diferente, etc. Veja abaixo os operadores de comparação:
-
-    (==) Igual a
-    (===) Idêntico, e do mesmo tipo de dados
-    (!=),(<>) Diferente de
-    (!==) Não idêntico
-    (<) Menor que
-    (>) Maior que
-    (<=) Menor ou igual a
-    (>=) Maior ou igual a
-    (<=>) Define um inteiro(-1,0,1) caso o resultado da comparação for menor que, igual ou maior que, respectivamente
-
-
-## EXEMPLO 
-```php 
 $numero1 = 15;
 $numero2 = 5;
 $numero3 = 5;
@@ -75,5 +60,3 @@ if ($numero3 !== $numero4) {
 } else {
     echo "Não <br>";
 }
-?>
-```

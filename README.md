@@ -43,6 +43,10 @@ troca de pasta
 ```
 git checkout aula04
 ```
+Exclui branch
+```
+git branch -D aula07
+```
 comando que mergia(unir) branch
 ```
 git merge aula04 (nome da branch)

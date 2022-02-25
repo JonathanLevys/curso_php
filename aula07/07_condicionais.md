@@ -36,10 +36,10 @@ if (codição) {
 ## EXEMPLO
 ```php
  <?php
-$t = date("H");
+$hora = 01;
 
-if ($t < "20") {
-  echo "Tenha uma boa dia!";
+if ($hora <= 12) {
+  echo "Tenha uma bom dia!";
 } else {
   echo "Tenha uma boa noite!";
 }
@@ -64,12 +64,12 @@ if (codição) {
 Saída "Tenha um bom dia!" se a hora atual for menor que 10, e "Tenha um bom dia!" se a hora atual for menor que 20. Caso contrário, output "Tenha uma boa noite!":
 ```php
  <?php
-$t = date("H");
+$hora = 01;
 
-if ($t < "10") {
-  echo "Tenha um bom dia!";
-} elseif ($t < "20") {
-  echo "Tenha um boa tarde!";
+if ($hora <= 12) {
+  echo "Tenha uma bom dia!";
+} else if ($hora <= 18) {
+  echo "Tenha uma boa tarde!";
 } else {
   echo "Tenha uma boa noite!";
 }

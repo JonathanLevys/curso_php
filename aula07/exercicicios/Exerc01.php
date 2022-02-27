@@ -1,9 +1,11 @@
 <?php
 
-$a= 10;
-$b= 20; 
+$num1 = 20;
+$num2 = 10; 
 
-if ($a < $b) {
-    echo " Realmente A é menor B.";
+if ($num1 > $num2) {
+    echo "MENOR";
+} else {
+    echo "MAIOR";
 }
 ?>

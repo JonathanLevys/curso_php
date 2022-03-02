@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="exerc03.php" method="post">
-        SEXO: <input name="" type="text">             
+        SEXO: <input name="sexo" type="text">             
         <br>
         <br>
             <button type="submit">Enviar</button>

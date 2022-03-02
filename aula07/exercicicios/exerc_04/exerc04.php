@@ -1,8 +1,13 @@
 <?php
 
-    $vogal = $_POST("a" , "e" , "i" , "o" , "u");
+    $vogal = $_POST["vogal"];
 
-if ($vogal == $vogal) {
+if ($vogal == 'a' ||
+    $vogal == 'e' ||
+    $vogal == 'i' ||
+    $vogal == 'o' ||
+    $vogal == 'u' 
+) {
    echo "VOGAL"; 
 } else{
     echo "CONSOANTE";

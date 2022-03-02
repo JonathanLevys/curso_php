@@ -1,11 +1,10 @@
 <?php
 
-    $sexo1= "M";
-    $sexo2= "F";
+    $sexo1= $_POST["sexo"];
 
     if ($sexo1=="M") {
         echo "masculino";
-    } elseif ($sexo2=="F") {
+    } elseif ($sexo1=="F") {
         echo "feminino";
     } else {
         echo "indefenido";

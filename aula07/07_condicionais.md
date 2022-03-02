@@ -94,7 +94,7 @@ Exercicio 3 - ```Fácil``` - Faça um programa que verifique (usando if e else) 
 
 Exercicio 4 - ```Fácil``` - Faça um programa que verifique (usando if e else) se uma letra digitada é vogal ou consoante.
 
-Exercicio 5 - ```Fácil```- Faça um programa para a leitura de duas notas parciais de um aluno.
+Exercicio 5 - ```Fácil```- Faça um programa para a leitura de duas notas parciais de um aluno. (CONCLUIDO)
 ```
     A mensagem “Aprovado”, se a média alcançada for maior ou igual a sete;
     A mensagem “Aprovado com excelência”, se a média for igual a dez;

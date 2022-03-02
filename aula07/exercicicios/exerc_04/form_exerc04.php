@@ -8,7 +8,10 @@
 </head>
 <body>
     <form action="exerc04.php" method="post">
-        ALFABETO: <input name="" type="text">
+        ALFABETO: <input name="vogal" type="text">
+        <br>
+        <br>
+            <button type="submit">Enviar</button>
     </form>
 </body>
 </html>

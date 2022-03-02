@@ -8,7 +8,9 @@
 </head>
 <body>
     <form action="Exerc01.php" method="post">
-        VALOR = <input name="20" type="text"><br><br>
+        VALOR1 = <input name="VALOR1" type="text"><br><br>
+        VALOR2 = <input name="VALOR2" type="text"><br><br>
+
         <button type="submit">VERIFICAR</button>
     </form>
 </body>

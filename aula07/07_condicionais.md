@@ -86,9 +86,9 @@ Edsger W. Dijkstra
 
 Obs: utilize em todos os exericios ```html com Form```
 
-Exercicio 1 - ```Fácil``` - Faça um programa que peça dois números e verifique (usando if e else) e imprima o maior deles
+Exercicio 1 - ```Fácil``` - Faça um programa que peça dois números e verifique (usando if e else) e imprima o maior deles (CONCLUIDO)
 
-Exercicio 2 - ```Fácil``` - Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo
+Exercicio 2 - ```Fácil``` - Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo (CONCLUIDO)
 
 Exercicio 3 - ```Fácil``` - Faça um programa que verifique (usando if e else) se a letra digitada é “F” ou “M”. Conforme a letra, imprima na tela: F – Feminino, M- Masculino, se nemhum letra for "F" ou "M" Sexo inválido.
 

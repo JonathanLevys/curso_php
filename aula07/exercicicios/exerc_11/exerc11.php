@@ -3,7 +3,7 @@
     $mes = $_POST["mes"];
     $ano = $_POST["ano"];
 
-    if ($dia >= 1 || $dia <= 31 || $mes >= 1 || $mes <= 12 || $ano >= 0 || $ano <= 2014) {
+    if($dia > 0 && $dia < 32 && $mes > 0 && $mes < 13 && $ano > 0 && $ano < 2014) {
         echo "data válida";
     } else {
         echo "Data inválida";

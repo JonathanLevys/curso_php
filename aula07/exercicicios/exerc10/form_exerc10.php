@@ -12,5 +12,6 @@
         IDADE: <input name="idade" type="text"><br><br>
                <button type="submit">VERIFICAR</button>
     </form>
+    
 </body>
 </html>

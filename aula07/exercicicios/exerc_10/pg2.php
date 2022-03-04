@@ -7,7 +7,7 @@
     <title>DOE SANGUE</title>
 </head>
 <body>
-    DOADOR
+    <p>DOADOR</p>
     <img src="https://www.carazinho.rs.gov.br/fotos/noticias_fotos_5044_12659_1471983333.jpg" alt="pg2" srcset="">
 </body>
 </html>

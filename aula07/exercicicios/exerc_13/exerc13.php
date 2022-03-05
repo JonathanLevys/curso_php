@@ -3,11 +3,11 @@
     $onix = $_POST["gm"];
     $polo = $_POST["vw"];
 
-    if ($argo > $onix and $argc > $polo) {
+    if ($argo > $onix and $argo > $polo) {
         echo "FIAT ARGO";
-    } elseif ($onix > $argc and $onix > $polo) { 
+    } elseif ($onix > $argo and $onix > $polo) { 
         echo "GM ONIX";
-    } elseif ($polo > $argc and $polo > $onix) {
+    } elseif ($polo > $argo and $polo > $onix) {
         echo "VW POLO";
     }
 ?>

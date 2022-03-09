@@ -8,7 +8,13 @@
 </head>
 <body>
     <form action="exerc17.php" method="post">
-        
+        RESPONDA "SIM" SOMENTO PARA AS RESPOSTA VERDADEIRAS.<br><br>
+        “Telefonou para a vítima?: <input name="SIM" type="text"><br><br>
+        “Esteve no local do crime?: <input name="SIM" type="text"><br><br>
+        “Mora perto da vítima?: <input name="SIM" type="text"><br><br>
+        “Devia para a vítima?: <input name="SIM" type="text"><br><br>
+        “Já trabalhou com a vítima?: <input name="SIM" type="text"><br><br>
+        <button type="submit">enviar</button>
     </form>
 </body>
 </html>

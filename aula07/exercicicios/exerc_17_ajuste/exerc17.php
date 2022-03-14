@@ -3,7 +3,7 @@
     $pergunta1 = $_POST['SIM'];
   
 
-    if ($resultado == $resultado) {
+    if ($pergunta1 == "sim") {
         echo "SIM";
     } else {
         echo 'NÃO';

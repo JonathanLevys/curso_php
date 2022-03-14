@@ -1,9 +1,6 @@
 <?php
 
-   // $manha = $_POST["m"];
-   // $vespertino = $_POST["v"];
-   // $noite = $_POST["n"];
-    $turno = $_POST["m"] or $_POST["v"] or $_POST ["n"];
+    $turno = $_POST["turno"];
 
     if ($turno == "m") {
         echo "BOM DIA !";

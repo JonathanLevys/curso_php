@@ -9,7 +9,7 @@
 <body>
     <form action="exerc14.php" method="post">
         Qual o turno: M - Matutino  V - verspertino  N - Noturno <br><br>
-        DIGITE A LETRA: <input name="$turno" type="text">
+        DIGITE A LETRA: <input name="turno" type="text">
         <button type="submit">selecionar</button>
     </form>
 </body>

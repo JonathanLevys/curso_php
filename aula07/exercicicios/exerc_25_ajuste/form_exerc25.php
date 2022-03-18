@@ -8,9 +8,9 @@
 </head>
 <body>
     <form action="exerc25.php" method="post">
-        LITROS: <input name="litros" type="text">
-        GASOLINA: <input name="G" type="text">
-        ALCCOL: <input name="A" type="text">
+        LITROS: <input name="litros" type="text"><br><br>
+        COMBUSTIVEL: <input name="combustivel" type="text"><br><br>
+        
             <button type="submit">CALCULAR</button>
     </form>
 </body>

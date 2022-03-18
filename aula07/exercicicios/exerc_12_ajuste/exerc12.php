@@ -1,6 +1,9 @@
 <?php
     $x = $_POST["valorx"];
     $y = $_POST["valory"];
+    $auxilio = 0;
+    $auxilio = $x;
+    $x = $y;
+    $y = $auxilio;
 
-    echo $x = $y or $y = $x;
-    //acredito que tenha outro elemento nesta logica.
+    echo "Este é o valor de X" . $x ." ". "Este é o valor de Y" . $y;

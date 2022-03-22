@@ -59,3 +59,8 @@ Cria nova branch e já troca para ela.
 ```
 git checkout -b aula07
 ```
+Puxa novas branch criadas por outros usuários.
+```
+git fetch --all
+```
+

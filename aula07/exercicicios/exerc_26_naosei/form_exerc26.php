@@ -8,7 +8,8 @@
 </head>
 <body>
     <form action="exerc26.php" method="post">
-        
+        Ano: <input name="ano" type="text"><br><br>
+            <button type="submit">CALCULAR</button>
     </form>
 </body>
 </html>

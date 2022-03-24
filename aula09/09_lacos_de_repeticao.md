@@ -72,7 +72,7 @@ O exemplo abaixo exibe os números de 0 a 10:
 ```
 
 # Exericios
-01 ```Fácil``` - Escreva um aplicativo que percorra de 0 a 50 e mostre somente os número ímpares.
-02 ```Intermediário``` - Escreva um aplicativo que exiba todos os múltiplos de 3 de 0 a 100.
-03 ```Fácil``` Escreva um aplicativo que exiba em ordem decrescente todos os números de 20 até 10;
-04 ```Fácil``` Escreva um aplicativo que exiba em todos valores de 5 em 5 de 0 até 50 exemplo: 5, 10, 15, 20, 25;
+01 ```Fácil``` - Escreva um aplicativo que percorra de 0 a 50 e mostre somente os número ímpares.</br>
+02 ```Intermediário``` - Escreva um aplicativo que exiba todos os múltiplos de 3 de 0 a 100.</br>
+03 ```Fácil``` Escreva um aplicativo que exiba em ordem decrescente todos os números de 20 até 10;</br>
+04 ```Fácil``` Escreva um aplicativo que exiba em todos valores de 5 em 5 de 0 até 50 exemplo: 5, 10, 15, 20, 25;</br>

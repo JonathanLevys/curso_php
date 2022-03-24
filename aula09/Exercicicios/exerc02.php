@@ -1,12 +1,12 @@
 <?php
-    $a = $_POST["valor"];
+    $contador = $_POST["valor"];
 
-    while ($a = 1000 . $a <= 2000 . $a++) {
-        if ($a % 11 == 2) {
-
+    while ($contador <= 2000) {
+        if ($contador % 11 == 2) {
+            echo "Numeros: " . $contador;
         }
+        $contador++;
         
-        echo "Numeros: " . $a;
     }
 
 

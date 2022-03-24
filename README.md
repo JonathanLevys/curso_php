@@ -63,4 +63,19 @@ Puxa novas branch criadas por outros usuários.
 ```
 git fetch --all
 ```
-
+Salva codigos temporarios
+```
+git stash save "comentario"
+```
+Lista todos os codigos temporarios
+```
+git stash --list
+```
+Recuperar os codigos pelo list, com valor numerico 'stash@{0}'
+```
+git stash apply 0
+```
+Apaga os codigos temporarios
+```
+git stash drop 0
+```

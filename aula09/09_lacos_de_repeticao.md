@@ -76,3 +76,53 @@ O exemplo abaixo exibe os números de 0 a 10:
 02 ```Intermediário``` - Escreva um aplicativo que exiba todos os múltiplos de 3 de 0 a 100.</br>
 03 ```Fácil``` Escreva um aplicativo que exiba em ordem decrescente todos os números de 20 até 10;</br>
 04 ```Fácil``` Escreva um aplicativo que exiba em todos valores de 5 em 5 de 0 até 50 exemplo: 5, 10, 15, 20, 25;</br>
+
+## PHP Foreach
+
+O foreach funciona apenas em arrays e é usado para percorrer cada par chave/valor em um array.
+
+Sintax
+```
+foreach ($array as $value) {
+  codigo a ser executado;
+}
+```
+
+Para cada iteração do loop, o valor do o elemento da matriz atual é atribuído a $value e o ponteiro da matriz é movido por um, até atingir o último elemento do array.
+Exemplos
+
+O exemplo a seguir produzirá os valores do determinado array ($colors):
+### Exemplo
+```php
+<?php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
+?>
+```
+
+O exemplo a seguir produzirá as chaves e os valores do determinado array ($idade):
+### Exemplo
+```php
+<?php
+  $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+  foreach($age as $x => $val) {
+    echo "$x = $val<br>";
+  }
+?>
+```
+
+
+01 ```Fácil``` - Crie uma lista de compras, com varios items adicionados no array, exemplos, carne, banana etc, e percorra cada item com o foreach.</br>
+```
+Item 1: Banana
+Item 2: Carne
+Item 3: Ovo
+...
+...
+```
+
+02 ```Fácil``` - Crie uma lista de carros com array, e percorra cada item com o foreach.</br>

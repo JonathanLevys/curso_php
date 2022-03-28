@@ -126,3 +126,39 @@ Item 3: Ovo
 ```
 
 02 ```Fácil``` - Crie uma lista de carros com array, e percorra cada item com o foreach.</br>
+
+
+## PHP Break;
+Você já viu o breakinstrução usada em um capítulo anterior deste tutorial. Era usado para "saltar" de um switchdeclaração.
+
+O breakA instrução também pode ser usada para sair de um loop.
+
+Este exemplo salta para fora do loop quando x é igual a 4 : 
+
+```php
+<?php
+for ($x = 0; $x < 10; $x++) {
+  if ($x == 4) {
+    break;
+  }
+  echo "O número é: $x <br>";
+}
+?> 
+```
+
+## PHP Continuar
+
+O continueA instrução interrompe uma iteração (no loop), se ocorrer uma condição especificada, e continua com a próxima iteração no loop.
+
+Este exemplo ignora o valor de 4 :
+
+```php
+<?php
+for ($x = 0; $x < 10; $x++) {
+  if ($x == 4) {
+    continue;
+  }
+  echo "O número é: $x <br>";
+}
+?>
+```

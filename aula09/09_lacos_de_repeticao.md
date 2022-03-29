@@ -146,7 +146,7 @@ for ($x = 0; $x < 10; $x++) {
 ?> 
 ```
 
-## PHP Continuar
+## PHP Continue
 
 O continueA instrução interrompe uma iteração (no loop), se ocorrer uma condição especificada, e continua com a próxima iteração no loop.
 

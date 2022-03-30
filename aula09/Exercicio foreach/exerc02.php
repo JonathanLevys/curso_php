@@ -1,21 +1,21 @@
 <?php
 
     $carros = [
-        'FIAT' => array(
-            'hatch' => 'palio',
-            'ano' => 2012
+        'FIAT ' => array(
+            'hatch ' => ' palio',
+            'ano ' => 2012
         ),
-        'FORD' => array(
-            'sedan' => 'Fusion',
-            'ano' => 2018
+        'FORD ' => array(
+            'sedan ' => ' Fusion',
+            'ano ' => 2018
         ),
-        'GM' => array(
-            'pickup' => 'S10',
-            'ano' => 2019
+        'GM ' => array(
+            'pickup ' => ' S10',
+            'ano ' => 2019
         ),
-        'VOLKS' => array(
-            'suv' => 'nivus',
-            'ano' => 2020
+        'VOLKS ' => array(
+            'suv ' => ' nivus',
+            'ano ' => 2020
         )
     ];
 

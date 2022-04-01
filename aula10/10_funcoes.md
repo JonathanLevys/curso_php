@@ -51,7 +51,7 @@ No exemplo acima, observe que não precisamos informar ao PHP qual é o tipo de 
 
 O PHP associa automaticamente um tipo de dado à variável, dependendo de seu valor. Como os tipos de dados não são definidos em sentido estrito, você pode fazer coisas como adicionar uma string a um inteiro sem causar um erro.
 
-No PHP 7, foram adicionadas declarações de tipo. Isso nos dá uma opção para especificar o tipo de dados esperado ao declarar uma função e adicionando o strictdeclaração, ele lançará um "Fatal Error" se o tipo de dados não corresponder.
+No PHP 7, foram adicionadas declarações de tipo. Isso nos dá uma opção para especificar o tipo de dados esperado ao declarar uma função e adicionando o strict declaração, ele lançará um "Fatal Error" se o tipo de dados não corresponder.
 
 No exemplo a seguir, tentamos enviar um número e uma string para o funcionar sem usar strict:
 
@@ -152,3 +152,6 @@ As instruções include e require são idênticas, exceto em caso de falha:
 Então, se você quiser que a execução continue e mostre aos usuários a saída, mesmo que o arquivo de inclusão está faltando, use a instrução de inclusão. Caso contrário, no caso de FrameWork, CMS ou um codificação de aplicativo PHP complexo, sempre use a instrução require para incluir um arquivo de chave para o fluxo de execução. Isso ajudará a evitar comprometer a segurança do seu aplicativo e integridade, apenas no caso de um arquivo de chave estar acidentalmente faltando.
 
 Incluir arquivos economiza muito trabalho. Isso significa que você pode criar um arquivo de cabeçalho, rodapé ou menu padrão para todas as suas páginas da web. Então, quando o cabeçalho precisar ser atualizado, você só poderá atualize o arquivo de inclusão de cabeçalho. 
+
+
+# Exercicio
